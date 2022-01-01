@@ -141,10 +141,10 @@ const starts = async (dogexeon = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
-console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
+	console.log(color('\n> YT CHANNEL: N17R0 HACKERS ','silver'))
+console.log(color('> GITHUB: WHOAIAM ','silver'))
+console.log(color('> WA NUMBER: +918591220868 ','silver'))
+console.log(color('  WHOIAM Bot Inc. 2021','mediumseagreen'))
 	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
 
 	dogexeon.on('qr', () => {
@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "916909137213@s.whatsapp.net"
+    const htod = "918591220868@s.whatsapp.net"
 
     
 
@@ -400,8 +400,8 @@ dogexeon.on('group-update', async (anu) => {
 	})
     dogexeon.on('chat-update', async (message) => {
         require('./XeonDoge.js')(dogexeon, message)
-        ownerNumber = ["916909137213@s.whatsapp.net","916909137213@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "916909137213@s.whatsapp.net"
+        ownerNumber = ["918591220868@s.whatsapp.net","918591220868@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "918591220868@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
